@@ -1,0 +1,7 @@
+Id,GroupId,Name,Connectors
+aaaaaaa1-aaaa-aaaa-aaaa-aaaaaaaaaaaa,11111111-1111-1111-1111-111111111111,StationA1,"1:11111111-aaaa-aaaa-aaaa-111111111111,2:22222222-aaaa-aaaa-aaaa-222222222222"
+aaaaaaa2-aaaa-aaaa-aaaa-aaaaaaaaaaaa,11111111-1111-1111-1111-111111111111,StationA2,"1:33333333-aaaa-aaaa-aaaa-333333333333"
+bbbbbbb1-bbbb-bbbb-bbbb-bbbbbbbbbbbb,22222222-2222-2222-2222-222222222222,StationB1,"1:44444444-bbbb-bbbb-bbbb-444444444444"
+ccccccc1-cccc-cccc-cccc-cccccccccccc,33333333-3333-3333-3333-333333333333,StationC1,"1:55555555-cccc-cccc-cccc-555555555555"
+ddddddd1-dddd-dddd-dddd-dddddddddddd,44444444-4444-4444-4444-444444444444,StationD1,"1:66666666-dddd-dddd-dddd-666666666666"
+ddddddd2-dddd-dddd-dddd-dddddddddddd,44444444-4444-4444-4444-444444444444,StationD2,"1:77777777-dddd-dddd-dddd-777777777777,2:88888888-dddd-dddd-dddd-888888888888"

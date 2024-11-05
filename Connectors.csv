@@ -1,0 +1,9 @@
+Id,ChargeStationId,MaxCurrent
+11111111-aaaa-aaaa-aaaa-111111111111,aaaaaaa1-aaaa-aaaa-aaaa-aaaaaaaaaaaa,30
+22222222-aaaa-aaaa-aaaa-222222222222,aaaaaaa1-aaaa-aaaa-aaaa-aaaaaaaaaaaa,20
+33333333-aaaa-aaaa-aaaa-333333333333,aaaaaaa2-aaaa-aaaa-aaaa-aaaaaaaaaaaa,25
+44444444-bbbb-bbbb-bbbb-bbbbbbbbbbbb,bbbbbbb1-bbbb-bbbb-bbbb-bbbbbbbbbbbb,35
+55555555-cccc-cccc-cccc-cccccccccccc,ccccccc1-cccc-cccc-cccc-cccccccccccc,40
+66666666-dddd-dddd-dddd-dddddddddddd,ddddddd1-dddd-dddd-dddd-dddddddddddd,50
+77777777-dddd-dddd-dddd-dddddddddddd,ddddddd2-dddd-dddd-dddd-dddddddddddd,45
+88888888-dddd-dddd-dddd-dddddddddddd,ddddddd2-dddd-dddd-dddd-dddddddddddd,35

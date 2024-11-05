@@ -1,0 +1,11 @@
+@GroupService_HostAddress = http://localhost:5036
+
+GET {{GroupService_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{GroupService_HostAddress}}/todos/1
+Accept: application/json
+
+###

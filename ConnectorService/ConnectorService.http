@@ -1,0 +1,11 @@
+@ConnectorService_HostAddress = http://localhost:5128
+
+GET {{ConnectorService_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{ConnectorService_HostAddress}}/todos/1
+Accept: application/json
+
+###
