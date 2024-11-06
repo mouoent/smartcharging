@@ -61,6 +61,13 @@ Before running the project, ensure that you have the following installed:
     ```
 
 ## Project Layout
+The repository is divided into multiple microservices, each responsible for managing different parts of the system:
+
+- **Infrastructure**: Contains shared clients, event listeners, and services.
+- **GroupService**: Manages Groups and handles events related to Charge Stations and Connectors.
+- **ChargeStationService**: Manages Charge Stations and interacts with Connectors and Groups.
+- **ConnectorService**: Manages Connectors and communicates with Charge Stations.
+- **Shared**: Contains shared data contracts, base models, event classes, interfaces and base classes.
 
         SmartCharging
         ├── Infrastructure
@@ -139,13 +146,13 @@ Before running the project, ensure that you have the following installed:
 ### ChargeStation Service
 - **Description**: Manages charge stations and their interactions with connectors and groups.
 - **Event Listeners**:  Listeners for `GroupDeletedEvent`, `ConnectorCreatedEvent`, etc.
-- **Models**: Group models and DTOs.
+- **Models**: ChargeStation models and DTOs.
 - **Repositories**: Implements the `ChargeStationRepository`.
 - **Program.cs**: Sets up service dependencies, database seeding, and hosted event listeners.
-### ChargeStation Service
+### Connector Service
 - **Description**: Responsible for connector operations, ensuring they align with the capacities of associated charge stations and groups.
 - **Event Listeners**:  Listeners for `ChargeStationDeletedEvent`, etc.
-- **Models**: Group models and DTOs.
+- **Models**: Connector models and DTOs.
 - **Repositories**: Implements the `ConnectorRepository`.
 - **Program.cs**: Sets up service dependencies, database seeding, and hosted event listeners.
 
