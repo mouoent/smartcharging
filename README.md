@@ -42,7 +42,7 @@ Before running the project, ensure that you have the following installed:
 ### Microservices
 1. Clone the repository:
     ```bash
-    git clone https://github.com/akarounis/smartcharging.git
+    git clone https://github.com/mouoent/smartcharging.git
     cd smartcharging
     ```
 2. Restore NuGet packages:
@@ -65,7 +65,7 @@ Before running the project, ensure that you have the following installed:
         SmartCharging
         ├── Infrastructure
         │   ├── Clients
-        │   ├── EventListeners
+        │   ├── EventPublishers
         │   ├── Helpers
         │   ├── Services
         │   └── ServiceRegistration.cs
